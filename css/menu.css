@@ -52,9 +52,6 @@ body {
 
     
 }
-.menuname1 {
-    font-weight: bold;
-}
 .imghelp {
     max-width: 165px;
     max-height: 117px;
@@ -196,17 +193,23 @@ body {
 .panel1:hover .menuname1::before {
     background-image: url("/imgs/icons/panelupravleniya.svg");
     background-color: #3182CE;
+
 }
 .panel1:hover {
     box-shadow: 0px 5px 14px 0px #0000000D;
 }
-
+.panel1:hover .menuname1 {
+    font-weight: bold;
+}
 .panel2:hover .menuname2::before {
     background-image: url("/imgs/icons/iconizer-table\ \(1\).svg");
     background-color: #3182CE;
 }
 .panel2:hover {
     box-shadow: 0px 5px 14px 0px #0000000D;
+}
+.panel2:hover .menuname2 {
+    font-weight: bold;
 }
 .panel3:hover .menuname3::before {
     background-image: url("/imgs/icons/iconizer-littlecard.svg");
@@ -215,6 +218,9 @@ body {
 .panel3:hover {
     box-shadow: 0px 5px 14px 0px #0000000D;
 }
+.panel3:hover .menuname3 {
+    font-weight: bold;
+}
 .panel4:hover .menuname4::before {
     background-image: url("/imgs/icons/iconizer-RTL.svg");
     background-color: #3182CE;
@@ -222,12 +228,18 @@ body {
 .panel4:hover {
     box-shadow: 0px 5px 14px 0px #0000000D;
 }
+.panel4:hover .menuname4 {
+    font-weight: bold;
+}
 .panel5:hover .menuname6::before {
     background-image: url("/imgs/icons/iconizer-human.svg");
     background-color: #3182CE;
 }
 .panel5:hover {
     box-shadow: 0px 5px 14px 0px #0000000D;
+}
+.panel5:hover .menuname6 {
+    font-weight: bold;
 }
 
 .panel6:hover .menuname7::before {
@@ -237,6 +249,9 @@ body {
 .panel6:hover {
     box-shadow: 0px 5px 14px 0px #0000000D;
 }
+.panel6:hover .menuname7 {
+    font-weight: bold;
+}
 
 .panel7:hover .menuname8::before {
     background-image: url("/imgs/icons/iconizer-rocket.svg");
@@ -244,4 +259,7 @@ body {
 }
 .panel7:hover {
     box-shadow: 0px 5px 14px 0px #0000000D;
+}
+.panel7:hover .menuname8 {
+    font-weight: bold;
 }
