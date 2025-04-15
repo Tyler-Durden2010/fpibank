@@ -1,0 +1,72 @@
+.headline {
+    background-color: #3182CE;
+    color: white;
+
+}
+
+.header-blocks{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1868px;
+    padding: 45px 0 16px 0;
+}
+
+.left-header {
+    max-width: 205px;
+}
+
+.scores-title {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5.5px;
+}
+
+.title-header {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.right-header {
+    margin: auto 13px auto 0;
+    display: flex;
+    gap: 18px;
+    max-width: 350px;
+}
+
+.input-header {
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    min-width: 200px;
+    min-height: 40px;
+    position: relative;
+    padding-left: 38px;
+}
+
+.magnifier{
+    position: absolute;
+    z-index: 10;
+    right: 342px;
+    top: 54px;
+}
+
+.input-header::placeholder{
+    color: #A0AEC0;
+}
+
+.initialization,.settings-header,.bell{
+    border: none;
+    background: none;
+}
+
+.initialization {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bell:hover,.initialization:hover,.settings-header:hover{
+    background-color: #6ca1e6;
+    border-radius: 15px;
+}
