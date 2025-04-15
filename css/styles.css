@@ -70,3 +70,92 @@
     background-color: #6ca1e6;
     border-radius: 15px;
 }
+
+
+
+.block-salary,.payment{
+    max-width: 1040px;
+    display: flex;
+    gap: 24px;
+}
+
+.credit-card,.salary{
+    border-radius: 20px;
+}
+
+.credit-card {
+    background: url(/pictures/Background.png) center / cover no-repeat;
+    max-width: 468px;
+    padding: 138px 186px 40px 31px;
+    position: relative;
+}
+
+.master-gray-icon {
+    position: absolute;
+    top: 22px;
+    left: 388px;
+}
+
+.info-credit-card {
+    color: #FFFFFF;
+}
+
+.card-code {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.info-of-credit {
+    display: flex;
+    justify-content: space-between;
+    max-width: 150px;
+}
+
+.timeframe,.CVV-name{
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.date-end,.CVV-number{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.salary {
+    background-color: white;
+    min-width: 258px;
+    text-align: center;
+    padding: 30px 23px 25px;
+    max-width: 258px;
+}
+
+.icon-wallet {
+    background-color: #3182CE;
+    padding: 19px;
+    border-radius: 8px;
+    max-width: 64px;
+    margin: 0 auto 29px;
+}
+
+.salary-name,.count-salary {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.salary-subname {
+    margin-bottom: 13px;
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #A0AEC0;
+}
+
+.gray-line{
+    margin-bottom: 13px;
+}
+
+.icon-wallet:hover{
+    background-color: #2D3748;
+}
