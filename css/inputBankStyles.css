@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900&display=swap");
+
+
 .way-to-pay {
     background-color: #FFFFFF;
     padding: 24px;
     border-radius: 20px;
     max-width: 990px;
+    font-family: "montserrat";
 }
 
 .info-add,.numbercard{
