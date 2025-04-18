@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-    
-    li {
+}
+
+body{
+    font-family: "Monsterrat";
+}
+
+li {
     list-style-type: none;
-    }
-    
-    a {
+}
+
+a{
     text-decoration: none;
-    }
+}
