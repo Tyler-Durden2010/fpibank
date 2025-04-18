@@ -1,0 +1,86 @@
+.invoices-card {
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+    border: 1.5px solid #2196F3;
+    border-radius: 16px;
+    padding: 32px 24px;
+    width: 100%;
+    max-width: 572px;
+    position: relative;
+  }
+  
+  .invoices-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C2A4A;
+    margin-bottom: 24px;
+  }
+  
+  .view-all-btn {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+    font-size: 12px;
+    padding: 8px 14px;
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    border-radius: 8px;
+    background: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .view-all-btn:hover {
+    background: #E3F2FD;
+  }
+  
+  .invoice-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .invoice-date {
+    font-weight: 600;
+    color: #1C2A4A;
+    font-size: 15px;
+  }
+  
+  .invoice-id {
+    font-size: 13px;
+    color: #9DB5D5;
+    margin-top: 2px;
+  }
+  
+  .invoice-meta {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A7D94;
+  }
+  
+  .invoice-amount {
+    margin-right: 12px;
+  }
+  
+  .invoice-pdf {
+    white-space: nowrap;
+  }
+  .invoice-pdf {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .pdf-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+  }
