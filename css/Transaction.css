@@ -4,8 +4,9 @@
     border-radius: 20px;
     background-color: white;
     padding: 28px 21px;
-    max-width: 660px;
+    min-width: 660px;
     font-family: "montserrat";
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .your-transaction {
@@ -20,16 +21,23 @@
     color: #A0AEC0;
 }
 
-.date-transaction{
-    position: relative;
-}
-
-
 .calendar-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 17px;
+    position: relative;
+}
+
+.new-transaction,.yesterday{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.yesterday{
+    min-height: 240px;
 }
 
 .transaction-title {
@@ -42,7 +50,7 @@
 
 .calendar-transaction{
     position: absolute;
-    left: 447px;
+    left: 425px;
 }
 
 .the-newest {
@@ -52,7 +60,6 @@
 
 .history-of-transaction {
     display: flex;
-    margin-bottom: 24px;
     justify-content: left;
     gap: 14px;
     align-items: center;

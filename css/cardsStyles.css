@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900&display=swap");
 
+.block-salary{
+    margin-bottom: 24px;
+    max-width: 990px;
+    max-height: 240px;
+}
+
 .block-salary,.payment{
-    max-width: 1040px;
     display: flex;
+    justify-content: space-between;
     gap: 24px;
     font-family: "montserrat";
 }
@@ -12,9 +18,9 @@
 }
 
 .credit-card {
-    background: url(/pictures/Background.png) center / cover no-repeat;
-    max-width: 468px;
-    padding: 138px 186px 40px 31px;
+    background: url(/imgs/icons/Background.png) center / cover no-repeat;
+    max-width: 462px;
+    padding: 122px 180px 40px 31px;
     position: relative;
 }
 
@@ -53,10 +59,10 @@
 
 .salary {
     background-color: white;
-    min-width: 258px;
+    min-width: 240px;
     text-align: center;
-    padding: 30px 23px 25px;
-    max-width: 258px;
+    padding: 30px 13px 25px;
+    max-height: 240px;
 }
 
 .icon-wallet {

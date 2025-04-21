@@ -7,6 +7,7 @@
     border-radius: 20px;
     max-width: 990px;
     font-family: "montserrat";
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .info-add,.numbercard{
@@ -34,8 +35,11 @@
     color: white;
 }
 
-.MasterNumber,.VisaNumber{
+.numbercard,.visacard{
     position: relative;
+}
+
+.MasterNumber,.VisaNumber{
     outline: none;
     border: 1px solid #E2E8F0;
     border-radius: 8px;
@@ -50,24 +54,23 @@
 .edit1,.edit2,.MasterIcon,.VisaIcon,.edit3,.edit4{
     position: absolute;
     z-index: 4;
-    top: 110px;
+    top: 26px;
 }
 
 .edit1,.edit3{
-    left: 452px;
+    left: 427px;
 }
 
 .edit2,.edit4{
-    left: 935px;
+    left: 431px;
 }
 
 .MasterIcon{
-    left: 44px;
+    left: 20px;
 }
 
 .VisaIcon{
-    left: 527px;
-    top: 112px;
+    left: 20px;
 }
 
 .add-the-bank:hover{
