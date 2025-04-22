@@ -14,3 +14,7 @@
     max-width: 1584px;
     justify-content: space-between;
 }
+.flexup {
+    display: flex;
+    gap: 24px;
+}
