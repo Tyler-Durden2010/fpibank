@@ -42,15 +42,14 @@
     outline: none;
     min-width: 200px;
     min-height: 40px;
-    position: relative;
     padding-left: 38px;
 }
 
 .magnifier{
     position: absolute;
     z-index: 10;
-    right: 360px;
-    top: 54px;
+    left: 6px;
+    top: 9px;
 }
 
 .input-header::placeholder{
@@ -71,4 +70,8 @@
 .bell:hover,.initialization:hover,.settings-header:hover{
     background-color: #6ca1e6;
     border-radius: 8px;
+}
+
+.search-header{
+    position: relative;
 }
