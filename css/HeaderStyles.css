@@ -4,7 +4,13 @@
     background-color: #3182CE;
     color: white;
     font-family: "montserrat";
+    position: absolute;
+    width: 100%;
+    height: 413px;
+    z-index: 0;
+    max-width: 1920px;
 }
+
 
 .header-blocks{
     margin: 0 45px 0 20px;
@@ -42,14 +48,15 @@
     outline: none;
     min-width: 200px;
     min-height: 40px;
+    position: relative;
     padding-left: 38px;
 }
 
 .magnifier{
     position: absolute;
     z-index: 10;
-    left: 6px;
-    top: 9px;
+    right: 360px;
+    top: 54px;
 }
 
 .input-header::placeholder{
@@ -70,8 +77,4 @@
 .bell:hover,.initialization:hover,.settings-header:hover{
     background-color: #6ca1e6;
     border-radius: 8px;
-}
-
-.search-header{
-    position: relative;
 }

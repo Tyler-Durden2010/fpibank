@@ -2,10 +2,10 @@
     background-color: #f4f8fd;
     padding: 16px 24px;
     max-height: 58px;
-    margin-top: 24px;
-    border-radius: 8px;
     font-family: montserrat;
     max-width: 1920px;
+    position: relative;
+    bottom: -50px;
   }
   
   .footer-links {
@@ -19,5 +19,4 @@
   .footer-links a {
     color: inherit;
     text-decoration: none;
-    transition: color 0.2s ease;
   }

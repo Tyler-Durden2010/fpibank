@@ -1,8 +1,14 @@
-.main-block{
+.main-block {
     display: flex;
     gap: 19px;
-    padding: 0 32px 0 20px;
+    padding: 60px 32px 0 20px; 
+    background-color: transparent; 
+    position: relative;
+    z-index: 2; 
+    bottom: -50px;
+    max-width: 1920px;
 }
+
 
 .top-block{
     margin-bottom: 24px;
