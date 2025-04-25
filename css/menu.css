@@ -81,6 +81,7 @@
     margin-left: auto;
     margin-right: auto;
     font-family: montserrat;
+    cursor: pointer;
 }
 .menuname1::before {
     position: absolute;
