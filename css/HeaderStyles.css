@@ -14,21 +14,21 @@
 
 }
 .textheader {
-    max-width: 1920px;
+    max-width: 1855px;
     margin: 0 auto;
-   
 }
 
 .header-blocks{
-    margin: 0 45px 0 20px;
+    margin: 0 45px 0 0;
     display: flex;
     justify-content: space-between;
-    max-width: 1868px;
+    max-width: 1855px;
    
 }
 
 .left-header {
     max-width: 205px;
+    text-align: left;
 }
 
 .scores-title {
@@ -55,15 +55,18 @@
     outline: none;
     min-width: 200px;
     min-height: 40px;
-    position: relative;
     padding-left: 38px;
+}
+
+.search-header{
+    position: relative;
 }
 
 .magnifier{
     position: absolute;
     z-index: 10;
-    right: 360px;
-    top: 54px;
+    left: 7px;
+    top: 9px;
 }
 
 .input-header::placeholder{
