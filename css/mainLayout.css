@@ -24,3 +24,13 @@
     display: flex;
     gap: 24px;
 }
+body {
+    background-color: #ffffff;
+    position: relative;
+
+}
+.app {
+    background-color: #F8F9FA;
+    margin: 0 auto;
+    max-width: 1920px;
+}

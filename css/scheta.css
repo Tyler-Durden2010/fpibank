@@ -1,19 +1,20 @@
 .invoices-card {
     font-family: montserrat;
     background: #fff;
-    border: 1.5px solid #2196F3;
     border-radius: 16px;
     padding: 32px 24px;
     width: 100%;
     max-width: 572px;
     position: relative;
+
+    
+
   }
   
   .invoices-header {
     font-size: 20px;
     font-weight: 600;
     color: #1C2A4A;
-    margin-bottom: 24px;
   }
   
   .view-all-btn {
@@ -38,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 30px;
   }
   
   .invoice-info {
